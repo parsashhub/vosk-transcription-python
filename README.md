@@ -14,7 +14,6 @@ This project uses the Vosk library for speech recognition and transcription in P
     - [macOS](#macos)
     - [Windows](#windows)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -87,8 +86,8 @@ Here is an example of how to use the Vosk Transcription Python project:
 
 ```python
 from vosk import Model
-from convertMp4toWav import convert_mp4_to_wav
-from transcribeTextFromWav import transcribe_wav_to_text
+from src.convertMp4toWav import convert_mp4_to_wav
+from src.transcribeTextFromWav import transcribe_wav_to_text
 
 # Define directories and model path
 model_path = "path to vosk model"
